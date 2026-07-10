@@ -117,15 +117,26 @@
           <p>Redes Sociais:</p>
           <input id="instagram" type="checkbox" name="social" value="Instagram">
           <label for="instagram">Instagram</label>
-          <br>
+          <br />
           <input id="facebook" type="checkbox" name="social" value="Facebook">
           <label for="facebook">Facebook</label>
-          <br>
+          <br />
           <input id="linkedin" type="checkbox" name="social" value="Linkedin">
           <label for="linkedin">Linkedin</label>
-          <br>
+          <br />
           <input id="x" type="checkbox" name="social" value="X">
           <label for="x">X</label>
+
+          <br />
+
+          <label for="musicStyle">Estilo musical:</label>
+          <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
+          <datalist id="styleTypes">
+            <option value="Rock">
+            <option value="Pop">
+            <option value="Samba">
+            <option value="Sertanejo">
+          </datalist>
         </fieldset>
 
         <button type="submit">Enviar</button>
